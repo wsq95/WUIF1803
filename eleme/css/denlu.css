@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+    outline: none;
+}
+.header{
+    width: 7.5rem;
+    height: 5.8rem;
+}
+.header .touxiang{
+    width: 100%;
+    height: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .touxiang img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.header .zi {
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.3rem;
+    color: #f4971f;
+}
+.header .tu{
+    width: 2.8rem;
+    height: 0.6rem;
+    margin-left: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.3rem;
+    margin:0 auto;
+}
+.header .tu img{
+    width: 0.6rem;
+    height: 0.16rem;
+}
+.header .tu p{
+    color: #f4971f;
+    text-shadow: 0 0.02rem 0.03rem #abfaf4;
+}
+.content{
+    width: 4.74rem;
+    height: 4rem;
+    background: url("../img/denlu/bg.png");
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .hang{
+    width: 0.6rem;
+    height: 0.17rem;
+    display: flex;
+    justify-content: space-between;
+}
+.content .hang .box{
+    margin-top: 0.4rem;
+    width: 0.17rem;
+    height: 0.17rem;
+    border-radius: 50%;
+    background: yellow;
+}
+.content .hang .box1{
+    background: #b4b2b2;
+}
+.content .kang{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.content .kang .one{
+    width: 4.22rem;
+    height: 0.68rem;
+    font-size: 0.18rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.3);
+
+}
+.content .kang .ju{
+    width: 0.2rem;
+    height: 0.04rem;
+    background: #2ac8ef;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.32rem;
+}
+.content .kang .ju1{
+    position: absolute;
+    left: 0.3rem;
+    top: 1.2rem;
+}
+.content .kang .icon-icon--{
+    color: green;
+    font-size: 0.44rem;
+    position: absolute;
+    top: 0.16rem;
+    right: 0.2rem;
+}
+.content .kang .icon-suo{
+    color: orange;
+    font-size: 0.44rem;
+    position: absolute;
+    top: 1rem;
+    right: 0.2rem;
+}
+.content .kang .one1{
+    margin-top: 0.2rem;
+}
+.content .kang a{
+    display: block;
+    margin-top: 0.2rem;
+    width: 2rem;
+    height: 0.24rem;
+    font-size: 0.18rem;
+    margin-right: 2.6rem;
+
+}
+.content .kang a i{
+    font-size: 0.2rem;
+    color: red;
+}
+.content .tu{
+    width: 1.42rem;
+    height: 0.43rem;
+    border-radius: 0.04rem;
+    background: #face3c;
+    margin-top: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content .tu i{
+    font-size: 0.4rem;
+    color: white;
+}
+.last{
+    width: 7.5rem;
+    height: 0.68rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last .he{
+    width: 3.26rem;
+    height: 0.68rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last .he .yuan{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: url("../img/denlu/yuan.png");
+    background-size: cover;
+}
+.last .he .yuan a{
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last .he .yuan a i{
+    font-size: 0.4rem;
+    color: green;
+}
+.last .he .yuan2 a i{
+    color: #1aa3f3;
+}
+.last .he .yuan3 a i{
+    color: red;
+}

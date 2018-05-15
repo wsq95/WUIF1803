@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea, buttom{
+    boredr:none;
+    outline: none;
+}
+.header{
+    width: 7.5rem;
+    height: 3rem;
+    background: url("../img/erji/bg.png");
+    background-size: 100% 100%;
+}
+.header2{
+    width: 7.5rem;
+    height: 3.08rem;
+    background: url("../img/erji/bgtwo.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header2 .title{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header2 .title .left{
+    width: 4.4rem;
+    height: 100%;
+    margin-left: 0.24rem;
+}
+.header2 .title .left a{
+    display: block;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header2 .title .left a .reachBox{
+    width: 3.78rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    border: none;
+}
+.header2 .title .left a i:nth-child(1){
+    font-size: 0.44rem;
+    color: #fff;
+}
+.icon-unie036{
+    color: #939090;
+    position: absolute;
+    font-size: 0.24rem;
+    left: 0.95rem;
+    top: 0.3rem;
+}
+::-webkit-input-placeholder{
+    color: #939090;
+    font-size: 0.18rem;
+    text-align: center;
+
+}
+.header2 .title .right{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header2 .title .right a{
+    width: 0.43rem;
+    height: 0.11rem;
+    display: block;
+    float: right;
+    background: url("../img/erji/yuan.png");
+    background-size: 100% 100%;
+    margin-right: 0.24rem;
+    position: relative;
+
+}
+.header2 .title .right a i{
+    font-size: 0.44rem;
+    color: #fff;
+    position: absolute;
+    right: 0.56rem;
+    bottom: -0.2rem;
+}
+.header2 .shangpu{
+    width: 7.02rem;
+    height: 1.44rem;
+    margin-left: 0.24rem;
+    margin-top: 0.24rem;
+    display: flex;
+}
+
+.header2 .shangpu .left{
+    width: 1.44rem;
+    right: 1.44rem;
+    border-radius: 0.1rem;
+    background: url("../img/erji/shuiguo.png");
+    background-size: 100% 100%;
+}
+.header2 .shangpu .right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.24rem;
+}
+.header2 .shangpu .right .zi{
+     flex-grow: 1;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    font-size: 0.24rem;
+    color: #fff;
+ }
+.header2 .shangpu .right .zi:nth-child(3){
+    color: #28f6e0;
+}
+.header2 .shangpu .right .zi:nth-child(4){
+    color: greenyellow;
+}
+.header2 .shangpu .right .zi:nth-child(4) span{
+    background: #e4b72e;
+    color: #fff;
+}
+.container{
+    float: left;
+    margin-top: 0.64rem;
+    width: 1.44rem;
+    height: auto;
+    display: flex;
+    height: 8.13rem;
+    display: flex;
+    flex-direction: column;
+}
+.container .classfiy{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+}
+.container .classfiy a{
+    color: rgba(0,0,0,0.5);
+}
+.container .classfiy .content{
+    width: 1.06rem;
+    height: 0.49rem;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.49rem;
+}
+.container .classfiy a.active{
+    color: #000000;
+    font-weight: bold;
+}
+.container .right{
+    flex-grow: 1;
+    height: auto;
+    background: red;
+}
+.produce{
+    width: 5.82rem;
+    height: 12.22rem;
+    float: right;
+    margin-right: 0.24rem;
+    margin-top: 0.64rem;
+    display: flex;
+    flex-direction: column;
+}
+.produce .box{
+    height: 4.2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.produce .box .hezi{
+    width: 2.8rem;
+    display: flex;
+    flex-direction: column;
+}
+.produce .box .hezi .shang{
+    width: 2.8rem;
+    height: 2.1rem;
+    background: url("../img/erji/apple.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.produce .box .hezi .shang1{
+    background: url("../img/erji/caomei.png");
+    background-size: 100% 100%;
+}
+.produce .box .hezi .shang2{
+    background: url("../img/erji/mangguo.png");
+    background-size: 100% 100%;
+}
+.produce .box .hezi .shang3{
+    background: url("../img/erji/xiangjiao.png");
+    background-size: 100% 100%;
+}
+.produce .box .hezi .shang4{
+    background: url("../img/erji/xigua.png");
+    background-size: 100% 100%;
+}
+.produce .box .hezi .shang5{
+    background: url("../img/erji/youzi.png");
+    background-size: 100% 100%;
+}
+.produce .box .hezi .shang li{
+    font-size: 0.18rem;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    color: #fff;
+
+}
+.produce .box .hezi .shang li:after{
+    content: "7.21折一份";
+    width: 100%;
+    height: 0.34rem;
+    background: -webkit-linear-gradient(left,#ff6d00,#ffff00);
+}
+.produce .box .hezi .xia{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.produce .box .hezi .xia .zi{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.produce .box .hezi .xia .zi1{
+    font-size: 0.3rem;
+}
+.produce .box .hezi .xia .zi2{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+}
+
+.produce .box .hezi .xia .zi3{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+}
+.produce .box .hezi .xia .zi3 span:nth-child(1){
+    color: red;
+    font-size: 0.3rem;
+}
+.produce .box .hezi .xia .zi3 span:nth-child(2){
+    color: rgba(0,0,0,0.5);
+}
+.produce .box .hezi .xia .zi3 .two{
+    width: 1.06rem;
+    height: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.produce .box .hezi .xia .zi3 .two .zuojian{
+    width: 0.36rem;
+    height: 100%;
+    font-size: 0.36rem;
+    color: #f8d92c;
+}
+.produce .box .hezi .xia .zi3 .two p{
+    flex-grow: 1;
+    text-align: center;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+}
+.produce .box .hezi .xia .zi3 .two .youjia{
+    width: 0.36rem;
+    height: 100%;
+    font-size: 0.36rem;
+    color: #f8d92c;
+}
+.produce .square{
+    width: 100%;
+    height: 1.3rem;
+}
+
+
+
+.dibu{
+    width: 100%;
+    height: 1.3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background: #f8a23d;
+}
+.dibu .shang{
+    width: 100%;
+    height: 0.32rem;
+    background: #fac091;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.32rem;
+    color:#fff;
+
+}
+.dibu .xia{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.dibu .xia .left{
+    width: 2.3rem;
+    height: 0.98rem;
+    font-size: 0.18rem;
+    background: #f8a23d;
+    color:#fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dibu .xia .right{
+    width: 1.9rem;
+    height: 0.98rem;
+    font-size: 0.3rem;
+    background: #f68806;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.dibu .xia .circle{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0;
+}
+.dibu .xia .circle a{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dibu .xia .circle a i{
+    color: #fff;
+    font-size: 0.44rem;
+}
+
+
+

@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+.dibu{
+    width: 100%;
+    height: 1.3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background: #f8a23d;
+}
+.dibu .shang{
+    width: 100%;
+    height: 0.32rem;
+    background: #fac091;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.32rem;
+    color:#fff;
+
+}
+.dibu .xia{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.dibu .xia .left{
+    width: 2.3rem;
+    height: 0.98rem;
+    font-size: 0.18rem;
+    background: #f8a23d;
+    color:#fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dibu .xia .right{
+    width: 1.9rem;
+    height: 0.98rem;
+    font-size: 0.3rem;
+    background: #f68806;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.dibu .xia .circle{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    background: #f68806;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0;
+}
+.dibu .xia .circle a{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dibu .xia .circle a i{
+    color: #fff;
+    font-size: 0.44rem;
+}
+
+
+
+
+
+
+.dibu1{
+    width: 100%;
+    height: 1.3rem;
+    position: fixed;
+    left: 0;
+    bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background: #f8a23d;
+}
+.dibu1 .shang{
+    width: 100%;
+    height: 0.32rem;
+    background: #fac091;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.32rem;
+    color:#fff;
+
+}
+.dibu1 .xia{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.dibu1 .xia .left{
+    width: 2.3rem;
+    height: 0.98rem;
+    background: #f8a23d;
+    color:#fff;
+    float: right;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.dibu1 .xia .left .box1{
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.2rem;
+
+}
+.dibu1 .xia .left .box2{
+    font-size: 0.18rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.dibu1 .xia .right{
+    width: 1.68rem;
+    height: 0.98rem;
+    font-size: 0.3rem;
+    background: #f68806;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.dibu1 .xia .circle{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    background: #f68806;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0;
+}
+.dibu1 .xia .circle a{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dibu1 .xia .circle a i{
+    color: #fff;
+    font-size: 0.44rem;
+}
+.dibu1 .xia .smallCir{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.97rem;
+    bottom: 0.74rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #ffffff;
+}
+
+
+
+
+.dibu2{
+    width: 100%;
+    height: 2.44rem;
+    position: fixed;
+    left: 0;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    background: #f8a23d;
+}
+.dibu2 .shang{
+    width: 100%;
+    height: 0.32rem;
+    background: #fac091;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.32rem;
+    color:#fff;
+
+}
+.dibu2 .zhong1{
+    width: 100%;
+    height: 0.4rem;
+    background: #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+
+}
+.dibu2 .zhong1 .one{
+    height: 0.4rem;
+    width: 1.1rem;
+    margin-left: 0.24rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.dibu2 .zhong1 .two{
+    height: 100%;
+    width: 1.1rem;
+    margin-right: 0.24rem;
+    font-size: 0.24rem;
+}
+.dibu2 .zhong1 .two a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.dibu2 .zhong1 .two a i{
+    font-size: 0.24rem;
+    color: #ffffff;
+    float: right;
+    line-height: 0.4rem;
+}
+.dibu2 .zhong1 .two a span{
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 0.4rem;
+}
+.dibu2 .zhong2{
+    width: 100%;
+    height: 0.74rem;
+    display: flex;
+    background: #6b6f62;
+    justify-content: space-between;
+}
+.dibu2 .zhong2 .left{
+     width: 1.1rem;
+     height: 100%;
+     margin-left: 0.24rem;
+     font-size: 0.24rem;
+     text-align: center;
+     line-height: 0.74rem;
+    color: #fff;
+ }
+.dibu2 .zhong2 .right{
+    width: 2rem;
+    height: 100%;
+    margin-right: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dibu2 .zhong2 .right .price{
+   font-size: 0.24rem;
+    color: #fff;
+}
+
+.dibu2 .zhong2 .right .number{
+    width: 1.06rem;
+    height: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.dibu2 .zhong2 .right .number .zuojian{
+    width: 0.36rem;
+    height: 100%;
+    font-size: 0.36rem;
+    color: #f8d92c;
+}
+.dibu2 .zhong2 .right .number p{
+    flex-grow: 1;
+    text-align: center;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.dibu2 .zhong2 .right .number .youjia{
+    width: 0.36rem;
+    height: 100%;
+    font-size: 0.36rem;
+    color: #f8d92c;
+}
+.dibu2 .xia{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.dibu2 .xia .left{
+    width: 2.3rem;
+    height: 0.98rem;
+    font-size: 0.18rem;
+    background: #f8a23d;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dibu2 .xia .right{
+    width: 1.68rem;
+    height: 0.98rem;
+    font-size: 0.3rem;
+    background: #f68806;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+}
+.dibu2 .xia .left .box1{
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.2rem;
+
+}
+.dibu2 .xia .left .box2{
+    font-size: 0.18rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.dibu2 .xia .circle{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    background: #f68806;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0;
+}
+.dibu2 .xia .circle a{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dibu2 .xia .circle a i{
+    color: #fff;
+    font-size: 0.44rem;
+}
+.dibu2 .xia .smallCir{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.97rem;
+    bottom: 0.74rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #ffffff;
+}

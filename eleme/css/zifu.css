@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+     outline: none;
+}
+.box{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.box .header{
+     width: 7.5rem;
+     height: 5.8rem;
+     background: url("../img/zfstyle/bg.png");
+     background-size: cover;
+ }
+.box .next{
+    width: 7.5rem;
+    height: 7.54rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.next .title{
+    width: 100%;
+    height: 0.74rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.next .title a{
+    display: flex;
+    align-items: center;
+    margin-left: 0.24re;
+}
+.next .title a i{
+    font-size: 0.4rem;;
+}
+.next .title p{
+    width: 100%;
+    justify-content: center;
+    font-size: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.box .next .shuru{
+    width: 5.98rem;
+    height: 0.87rem;
+    border: 0.01rem solid rgba(0,0,0,0.3);
+    border-radius: 0.13rem;
+    background: #fafafa;
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.box .next .shuru .he{
+    width: 16.666667%;
+    border-right: 0.01rem solid rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+.box .next .shuru .he6{
+    border-right:none;
+}
+.box .next .zi {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.24rem;
+    margin-top: 0.24rem;
+}
+.box .next .zi a p{
+    font-size: 0.18rem;
+    color: #2ac8ef;
+}
+.box a img{
+    width: 100%;
+    height: 4.32rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}

@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+    outline: none;
+}
+.header{
+    width: 7.5rem;
+    height: 2.8rem;
+
+    background: -webkit-linear-gradient(left,#f7b343,#f4e32e);
+}
+.header .title{
+    width: 100%;
+    height: 0.88rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.3);
+    display: flex;
+}
+.header .title a{
+    display: flex;
+    align-items: center;
+    width: 0.24rem;
+    height: 100%;
+    margin-right: 0.24rem;
+}
+.header .title p{
+    font-size: 0.3rem;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.header .title a i{
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+.header .two{
+    width: 7.02rem;
+    height: 1.9rem;
+    margin-left: 0.24rem;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.header .two .shang{
+    width: 100%;
+    height: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header .two .shang .zuo{
+    width: 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header .two .shang .zuo .tb{
+    height: 0.6rem;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.header .two .shang .zuo .tb i{
+    display: flex;
+    align-items: center;
+    font-size: 0.3rem;
+    margin-right: 0.24rem;
+}
+.header .two .shang .zuo .tb p{
+    font-size: 0.24rem;
+    display: flex;
+    align-items: center;
+}
+.header .two .shang .zuo .zi{
+    font-size: 0.18rem;
+    height: 0.5rem;
+    color: white;
+    padding-left: 0.52rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.header .two .shang .you{
+    font-size: 0.18rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header .two .xia{
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.header .two .xia .he{
+    width: 100%;
+    height: 0.38rem;
+    border-radius: 0.5rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header .two .xia .he .first{
+   display: flex;
+    height: 100%;
+    justify-content: flex-start;
+
+}
+.header .two .xia .he .first i{
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    margin-right: 0.24rem;
+    display: flex;
+    align-items: center;
+}
+.header .two .xia .he .first p{
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+}
+.header .two .xia .he .second{
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+
+}
+.header .two .xia .he .second i{
+    font-size: 0.3rem;
+    margin-left: 0.24rem;
+    margin-right: 0.1rem;
+    display: flex;
+    align-items: center;
+}
+.header .two .xia .he .second p{
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+}
+.produce{
+    width: 7.02rem;
+    height: 4rem;
+    margin-left: 0.24rem;
+}
+.produce .one{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.produce .one .tu{
+    width: 0.27rem;
+    height: 0.27rem;
+    background: url("../img/qrdd/shuiyuo.jpg");
+    background-size: cover;
+    margin-left: 0.2rem;
+    margin-right: 0.24rem;
+}
+.produce .one p{
+    font-size: 0.24rem;
+}
+.produce .two{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.produce .two .left{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+.produce .two .left .tu img{
+    display: block;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.produce .two .right{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.produce .two .right p{
+    font-size: 0.24rem;
+    margin-top: 0.4rem;
+}
+.produce .two .left p{
+    font-size: 0.24rem;
+    margin-top: 0.4rem;
+    margin-left: 0.24rem;
+}
+.box{
+    width: 7.02rem;
+    height: 5.6rem;
+    margin-left: 0.24rem;
+    display: flex;
+    flex-direction: column;
+}
+.box .zi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    height: 0.5rem;
+}
+.box .zi2{
+    height: 0.8rem;
+}
+.box .zi2 .zuo{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0.45rem;
+}
+.box .zi2 .zuo .bg{
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 0.02rem;
+    background: #e4b72e;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.box .zi3 .you{
+    display: flex;
+    justify-content: space-between;
+    width: 1.34rem;
+}
+.box .zi3 .you a i{
+    font-size: 0.24rem;
+}
+.box .zi4{
+    height: 0.8rem;
+}
+.box .zi4 .you{
+    width: 1.3rem;
+}
+.box .zi4 .you a i{
+    font-size: 0.24rem;
+}
+.box .zi5{
+    height: 0.8rem;
+    font-size: 0.3rem;
+}
+.box .zi5 .you{
+    color: red;
+}
+.box .zi6 .you{
+    width: 0.39rem;
+    height: 0.39rem;
+    border: 0.01rem solid rgba(0,0,0,0.3);
+
+}
+.box .hang{
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.3rem;
+    height: 1.6rem;
+    width: 100%;
+}
+.box .hang p:nth-child(2){
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dibu{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8a23d;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .right{
+    font-size: 0.3rem;
+    color: white;
+    width: 1.7rem;
+    height: 100%;
+    background: #f5aa20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dibu .left{
+    font-size: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+.dibu .left p:nth-child(1){
+    margin-right: 0.24rem;
+}
+

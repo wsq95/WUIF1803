@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+    outline: none;
+}
+.header{
+    width: 7.5rem;
+    height: 5.8rem;
+    background: url("../img/zfstyle/bg.png");
+    background-size: cover;
+}
+.xia{
+    width: 7.02rem;
+    height: 8.03rem;
+    margin-left: 0.24rem;
+    display: flex;
+    flex-direction: column;
+}
+.xia .title{
+    width: 100%;
+    height: 0.74rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.xia .title a{
+    display: flex;
+    align-items: center;
+}
+.xia .title a i{
+    font-size: 0.4rem;;
+}
+.xia .title p{
+    width: 100%;
+    justify-content: center;
+    font-size: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+.xia .box{
+    flex-grow: 1;
+    width: 100%;
+    height: 1.78rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xia .box .right a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.xia .box .right a i{
+    font-size: 0.4rem;
+    color: #8a8a8a;
+}
+.xia .box .left{
+    width: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.xia .box .left a i{
+    font-size: 0.8rem;
+    color: #1296db;
+}
+.xia .box .left p{
+    font-size: 0.3rem;
+    margin-left: 0.24rem;
+
+}
+.xia .box1 .right a i{
+    color: #1afa29;
+}
+.xia .box2 .left a i{
+    color: #d81e06;
+}
+.xia .box3 .left a i{
+    color: #1afa29;
+}
+.xia .box4 .left a i{
+    color: #facd1a;
+}

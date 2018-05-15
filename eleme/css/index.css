@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea,button{
+    border: none;
+    outline: none;
+}
+header{
+    width: 7.5rem;
+    height: 1.67rem;
+    background: url("../img/header/bg.png");
+    background-size: 100% 100%;
+}
+.daohang{
+    width: 7.02rem;
+    height: 0.91rem;
+    float: left;
+    margin: 0 0.24rem 0;
+    position: relative;
+}
+.daohang .left{
+    float: left;
+    width: 2.8rem;
+    height: 0.31rem;
+    margin-top: 0.29rem;
+    font-size: 0.21rem;
+    line-height: 0.31rem;
+    color: #fff;
+    position: relative;
+}
+
+.icon-location{
+    color: #fff;
+    line-height: 0.31rem;
+    font-size: 0.24rem;
+}
+
+.icon-sanjiaodown{
+    color: #fff;
+    font-size: 0.1rem;
+    position: absolute;
+    right: 0;
+    top: 0.03rem;
+}
+.icon-unie036{
+    color: #939090;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 0.32rem;
+    left:4.28rem;
+}
+.daohang .searchBox{
+    width: 2.8rem;
+    height: 0.31rem;
+    background: #fff;
+    line-height: 0.2rem;
+    position: absolute;
+    right: 0rem;
+    top: 0.29rem;
+    border-radius: 0.1rem;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: #939090;
+    font-size: 0.18rem;
+    text-align: center;
+
+}
+.hua{
+    width: 7.5rem;
+    height:3.06rem ;
+    position: absolute;
+    top: 1.1rem;
+    left: 0;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*overflow: auto;*/
+}
+.banner{
+    width: 7.5rem;
+    height: 3.06rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner .ju{
+    width: 20%;
+    height: 1.42rem;
+    /*background:url("../img/header/yuan.png");*/
+    /*background-size: cover;*/
+    float: left;
+}
+
+.banner .ju .yuan img{
+    display: block;
+    width: 1.02rem;
+    height: 1.31rem;
+    margin: 0 auto;
+}
+
+.banner .dian{
+    width: 0.54rem;
+    height: 0.06rem;
+    margin: 3rem auto ;
+}
+.banner .dian .dian1{
+    width: 0.3rem;
+    height: 0.06rem;
+    float: left;
+    background: #f2d485;
+    border-radius: 0.0025rem;
+    margin-right: 0.06rem;
+}
+.banner .dian .dian2{
+     width: 0.06rem;
+     height: 0.06rem;
+    border-radius: 50%;
+     background: #e5ab0f;
+     float:left;
+ }
+.banner .dian .dian3{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #e5ab0f;
+    float:right;
+}
+.num1{
+    top: 0;
+    left: 0rem;
+    display: none;
+}
+.num1 .dian .dian2{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #e5ab0f;
+    float:left;
+    margin-right: 0.06rem;
+}
+.num2{
+    top: 0;
+    left: 0;
+    display: none;
+}
+.num2 .dian .dian2{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #e5ab0f;
+    float:left;
+    margin-right: 0.06rem;
+}
+.num2 .dian .dian3{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: #e5ab0f;
+    float:left;
+}
+.num2 .dian .dian1{
+    float: right;
+    width: 0.3rem;
+    height: 0.06rem;
+    background: #f2d485;
+    border-radius: 0.0025rem;
+    margin-right: 0;
+}
+.jx{
+    width: 100%;
+    height: 0.05rem;
+    background: rgba(0,0,0,0.3);
+    margin-top: 2.78rem;
+}
+.tuijie{
+    width: 100%;
+    height: 1.24rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+}
+.tuijie .shang{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.29rem;
+}
+.tuijie .shang .tiao{
+    width: 0.76rem;
+    height: 0.04rem;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    margin-top: 0.13rem;
+    margin-left: 1.97rem;
+}
+.tuijie .shang .dian{
+    width: 0.06rem;
+    height: 0.06rem;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.13rem;
+    margin-top: 0.12rem;
+}
+.tuijie .shang .dian1{
+    margin-left: 0.29rem;
+    background: rgba(0,0,0,0.1);
+}
+.tuijie .shang .tiao1{
+    margin-left: 0.13rem;
+}
+.tuijie .shang>span{
+    float: left;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    margin-left: 0.29rem;
+}
+.tuijie .xia{
+    width: 100%;
+    height: 0.24rem;
+    margin-top: 0.22rem;
+}
+.tuijie .xia a>span{
+    float: left;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.24rem;
+    margin-right: 1.04rem;
+}
+.tuijie .xia .zh{
+    margin-left: 0.24rem;
+}
+.tuijie .xia .sx{
+    float:right;
+    margin-right: 0.22rem;
+}
+.icon-xiangxiajiantou{
+    font-size: 0.2rem;
+    line-height: 0.24rem;
+
+}
+.icon-icon-test{
+    font-size: 0.2rem;
+    line-height: 0.24rem;
+}
+.hezi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.hezi .dianpu{
+    width: 7.5rem;
+    height: 2.56rem;
+    display: flex;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+    margin-top: 0.41rem;
+}
+
+.hezi .dianpu .tu{
+    width: 1.67rem;
+    height: 1.57rem;
+    margin-left: 0.24rem;
+    background: url("../img/header/wsky.png");
+    background-size: 100% 100%;
+    margin-right: 0.24rem;
+
+}
+.hezi .dianpu .zi{
+    width: calc(100% - 2.15rem);
+    display: flex;
+    flex-direction: column;
+}
+.hezi .dianpu .zi .hang{
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgba(0,0,0,0.3);
+}
+.hezi .dianpu .zi .hang .xing i{
+    color: orange;
+    font-size: 0.2rem;
+}
+.hezi .dianpu .zi .hang .left {
+    font-size: 0.18rem;
+
+}
+.hezi .dianpu .zi .hang1 .left {
+    font-size: 0.3rem;
+    color: #000000;
+}
+.hezi .dianpu .zi .hang .right img{
+    display: block;
+    margin-right: 0.24rem;
+}
+.hezi .dianpu .zi .hang2 {
+    width: 100%;
+    font-size: 0.18rem;
+}
+.hezi .dianpu .zi .hang2 .xing .img{
+    width: 1.12rem;
+    height: 0.2rem;
+}
+.hezi .dianpu .zi .hang2 .shuzi{
+    margin-right: 0.17rem;
+    margin-left: 0.24rem;
+}
+.hezi .dianpu .zi .hang2 .yue{
+     margin-right: 1.17rem;
+ }
+.hezi .dianpu .zi .hang3{
+    font-size: 0.18rem;
+}
+.hezi .dianpu .zi .hang3 .right{
+    margin-right: 0.24rem;
+}
+.icon-msnui-shop{
+    display: block;
+    font-size: 0.18rem;
+}
+.hezi .dianpu .zi .hang4 .right{
+    font-size: 0.18rem;
+    margin-right: 4.55rem;
+}
+.hezi .dianpu .zi .hang5 .left span{
+    color: #f3b90a;
+}
+.hezi .dianpu .zi .hang6{
+    font-size: 0.18rem;
+}
+.hezi .dianpu .zi .hang6 .left span{
+    color: red;
+}
+.icon-msnui-shop{
+    display: block;
+}
+
+.hezi .dianpu1 .tu{
+    width: 1.67rem;
+    height: 1.57rem;
+    margin-left: 0.24rem;
+    background: url("../img/header/muxiangrankaorou.png");
+    background-size: 100% 100%;
+    margin-right: 0.24rem;
+
+}
+
+.hezi .dianpu2 .tu{
+    width: 1.67rem;
+    height: 1.57rem;
+    margin-left: 0.24rem;
+    background: url("../img/header/guobingfen.png");
+    background-size: 100% 100%;
+    margin-right: 0.24rem;
+
+}
+
+.hezi .dianpu3 .tu{
+    width: 1.67rem;
+    height: 1.57rem;
+    margin-left: 0.24rem;
+    background: url("../img/header/haolilai.png");
+    background-size: 100% 100%;
+    margin-right: 0.24rem;
+
+}
+
+.hezi .dianpu4 .tu{
+    width: 1.67rem;
+    height: 1.57rem;
+    margin-left: 0.24rem;
+    background: url("../img/header/meileji.png");
+    background-size: 100% 100%;
+    margin-right: 0.24rem;
+
+}
+.hezi .xia{
+    width: 100%;
+    height: 0.98rem;
+}
+.di{
+    width: 100%;
+    height: 0.98rem;
+    background: #e5ab0f;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+.di .box{
+    width: 25%;
+    height: 0.98rem;
+    background: #f4c110;
+}
+.di .box a i{
+    display: block;
+    margin-top: 0.11rem;
+    font-size: 0.48rem;
+    text-align: center;
+    color: #000;
+}
+.di .box a span{
+    display: block;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #000;
+}
+.di .box a.active span{
+    color: #fff;
+}
+
+.di .box a.active i{
+    color: #fff;
+}
+

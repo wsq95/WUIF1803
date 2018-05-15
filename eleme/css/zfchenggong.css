@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea, buttom{
+    boredr:none;
+    outline: none;
+}
+.header{
+    width: 7.5rem;
+    height: 5.8rem;
+    background: url("../img/zfstyle/bg.png");
+    background-size: cover;
+}
+.next{
+    width: 7.5rem;
+    height: 7.54rem;
+    background:-webkit-linear-gradient(left,#fbbb3a,#faf540);
+}
+.next .top{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next .top i{
+    font-size: 0.88rem;
+    color: #1296db;
+}
+.next .second{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: white;
+}
+.next .pric{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.3rem;
+    color: white;
+}
+.next .bottom{
+    width: 100%;
+    height: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next .bottom i{
+    font-size: 0.66rem;
+    color: #ffffff;
+}
+.next .last{
+    width: 100%;
+    height: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.next .last .left{
+    width: 2.14rem;
+    height: 0.86rem;
+    border-radius: 0.24rem;
+    background: -webkit-linear-gradient(left,#4ff523,#1df8dc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.3rem;
+}
+.next .last .left a p{
+    color: #ffffff;
+}
+.next .last .left1{
+    background: -webkit-linear-gradient(left,#1df8dc,#4ff523);
+}

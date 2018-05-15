@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input, textarea, buttom {
+    boredr: none;
+    outline: none;
+}
+.header{
+    width: 7.5rem;
+    height: 2.4rem;
+    background: url("../img/personal/bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.header .title{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .title .zuo{
+     width: 0.4rem;
+     height: 100%;
+
+ }
+.header .title .zuo a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header .title .zuo a i{
+   font-size: 0.44rem;
+    color: #ffffff;
+}
+.header .title .you a{
+    width: 0.4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header .title .you a i{
+    font-size: 0.44rem;
+    color: #ffffff;
+}
+.header .title .zhong{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.header .title .zhong span:nth-child(1){
+    font-size: 0.3rem;
+}
+.header .title .zhong span:nth-child(2){
+    font-size: 0.18rem;
+}
+.header .picture{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header .picture .first{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.header .picture .first img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.header .picture .second{
+    width: 1.8rem;
+    height: 1rem;
+    display: flex;
+    margin-left: 0.24rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.header .picture .second .name{
+    display: flex;
+    height: 0.5rem;
+    justify-content: center;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.header .picture .second .number span{
+    font-size: 0.18rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.header .picture .second .number span i{
+    font-size: 0.3rem;
+}
+.next{
+    width: 100%;
+    height: 1.47rem;
+    border-bottom: 0.03rem solid rgba(0,0,0,0.2);
+    padding-left:0.24rem;
+    padding-right: 0.24rem;
+    padding-top: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.next .one{
+    width: 2.33rem;
+    height: 1rem;
+    border-right: 0.01rem solid rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.next .one p:nth-child(1){
+    font-size: 0.3rem;
+    color: red;
+}
+.next .one p:nth-child(2){
+    font-size: 0.18rem;
+
+}
+.next .three{
+     width: 2.33rem;
+     height: 1rem;
+     border-left: 0.01rem solid rgba(0,0,0,0.2);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+.next .three p:nth-child(1){
+    font-size: 0.3rem;
+    color: #37baf7;
+}
+.next .three p:nth-child(2){
+    font-size: 0.18rem;
+
+}
+.next .two{
+    flex-grow: 1;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.next .two p:nth-child(1){
+    font-size: 0.3rem;
+    color: #f7ba37;
+}
+.next .two p:nth-child(2) {
+    font-size: 0.18rem;
+}
+.last{
+    width: 7.04rem;
+    height: 8.06rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.24rem;
+}
+.last .content{
+    width: 100%;
+    height: 1.02rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+}
+.last .content .left{
+    width: 5rem;
+    display: flex;
+}
+.last .content .left .icon {
+    height: 100%;
+    width: 0.38rem;
+    display: flex;
+    margin-right: 0.24rem;
+    align-items: center;
+}
+.last .content .left .icon i{
+   color:#1296db ;
+    text-shadow: 0 0.02rem 0.02rem rgba(0,0,0,0.3);
+}
+.last .content .left .zi{
+    height: 100%;
+    font-size: 0.24rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.last .content .left .zi p:nth-child(1){
+    font-size: 0.3rem;
+
+}
+.last .content .left .zi p:nth-child(2){
+    font-size: 0.18rem;
+}
+.last .content .right a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.last .content .right a i{
+    font-size: 0.24rem;
+}
+.last .content2{
+    border-bottom: 0.02rem solid rgba(0,0,0,0.2);
+}
+.last .content9{
+    border-bottom: none;
+    height: 1.03rem;
+}
+.last .content3 .right{
+   width: 3rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.last .content3 .right a{
+    height: 100%;
+    width: 0.24rem;
+    display: flex;
+    align-items: center;
+}
+.last .content3 .right p{
+    font-size: 0.18rem;
+    width: 1.8rem;
+    margin-right: 0.24rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon-lipintianchong{
+    color:#e01919;
+}
+.last .content2 .left .icon i{
+    color:#e01919;
+}
+.last .content3 .left .icon i{
+    color:#f49632;
+}
+.last .content32 .left .icon i{
+    color:#31f579;
+}
+.last .content31 .left .icon i{
+    color:#31f5e4;
+}
+.last .content4 .left .icon i{
+    color:#f531b4;
+}
+.last .content5 .left .icon i{
+    color:#f5b431;
+}
+.last .content9 .left .icon i{
+    color:#d4237a;
+}
+
+.di{
+    width: 100%;
+    height: 0.98rem;
+    background: #e5ab0f;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+.di .box{
+    width: 25%;
+    height: 0.98rem;
+    background: #f4c110;
+}
+.di .box a i{
+    display: block;
+    margin-top: 0.11rem;
+    font-size: 0.48rem;
+    text-align: center;
+    color: #000;
+}
+.di .box a span{
+    display: block;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #000;
+}
+.di .box a.active span{
+    color: #fff;
+}
+
+.di .box a.active i{
+    color: #fff;
+}
